@@ -10,6 +10,7 @@ class GhToSlack < Formula
 
   def install
     bin.install "scripts/gh-to-slack-pasteboard.sh" => "gh-to-slack-pasteboard"
+    (share/"gh-to-slack/icons").install Dir["icons/*.png"]
   end
 
   test do
