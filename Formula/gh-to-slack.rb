@@ -1,8 +1,8 @@
 class GhToSlack < Formula
   desc "Format and paste GitHub CLI output into Slack with rich links"
   homepage "https://github.com/jsheffie/gh-to-slack"
-  url "https://github.com/jsheffie/gh-to-slack/archive/refs/tags/v1.0.2.tar.gz"
-  sha256 "4f1b6df30d7ed543b47cebfc5f3745c0d23a88b4e802485f166788bab683d193"
+  url "https://github.com/jsheffie/gh-to-slack/archive/refs/tags/v1.0.3.tar.gz"
+  sha256 "cad1e5eb8a4ee0a91dece89e43a834ba0355af47bc056d4e4205445e7eb02b44"
   license "MIT"
 
   depends_on "gh"
