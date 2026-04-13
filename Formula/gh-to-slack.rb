@@ -9,12 +9,12 @@ class GhToSlack < Formula
   depends_on "jq"
 
   def install
-    bin.install "scripts/gh-to-slack-pasteboard.sh" => "gh-to-slack-pasteboard"
-    bin.install "scripts/gh-create-syms.sh" => "gh-create-syms"
+    bin.install "scripts/gh-clippy.sh" => "gh-clippy"
+    bin.install "scripts/gh-syms.sh" => "gh-syms"
     (share/"gh-to-slack/icons").install Dir["icons/*.png"]
   end
 
   test do
-    system bin/"gh-to-slack-pasteboard", "--help"
+    system bin/"gh-clippy", "--help"
   end
 end
