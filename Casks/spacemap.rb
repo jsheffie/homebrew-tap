@@ -9,6 +9,8 @@ cask "spacemap" do
 
   app "spacemap-#{version}/spacemap.app"
 
+  disable_quarantine true
+
   caveats <<~EOS
     Launch spacemap once to trigger the Accessibility permission prompt:
       open /Applications/spacemap.app
