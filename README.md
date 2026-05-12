@@ -4,6 +4,15 @@ Homebrew tap for my tools.
 
 ## Formulas
 
+### spacemap
+
+Floating yabai workspace grid overlay for macOS.
+
+```bash
+brew tap jsheffie/tap
+brew install spacemap
+```
+
 ### gh-to-slack
 
 Format and paste GitHub CLI output into Slack with rich links.
