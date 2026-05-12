@@ -9,7 +9,9 @@ cask "spacemap" do
 
   app "spacemap-#{version}/spacemap.app"
 
-  disable_quarantine true
+  postflight do
+    system_command "xattr", args: ["-rd", "com.apple.quarantine", "#{appdir}/spacemap.app"], sudo: true
+  end
 
   caveats <<~EOS
     If macOS blocks the app, install with:
