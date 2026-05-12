@@ -5,7 +5,7 @@ class Spacemap < Formula
   url "https://github.com/jsheffie/spacemap/releases/download/v#{version}/spacemap-#{version}.zip"
   sha256 "f3fd7acf629b3b457e5e627f2ce7421366ed9413ccb6d12a3c8999722c1c2486"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   def install
     app = "spacemap.app"
