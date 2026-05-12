@@ -3,7 +3,7 @@ class Spacemap < Formula
   homepage "https://github.com/jsheffie/spacemap"
   version "0.1.0"
   url "https://github.com/jsheffie/spacemap/releases/download/v#{version}/spacemap-#{version}.zip"
-  sha256 "f3fd7acf629b3b457e5e627f2ce7421366ed9413ccb6d12a3c8999722c1c2486"
+  sha256 "71e7ca7f35b7b286aba86f358c49d7036af2b814559b0b512e8f2a87d0eedcf8"
 
   depends_on macos: :ventura
 
