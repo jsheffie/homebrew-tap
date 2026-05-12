@@ -9,9 +9,10 @@ cask "spacemap" do
 
   app "spacemap-#{version}/spacemap.app"
 
-  quarantine false
-
   caveats <<~EOS
+    If macOS blocks the app, install with:
+      brew install --cask --no-quarantine jsheffie/tap/spacemap
+
     Launch spacemap once to trigger the Accessibility permission prompt:
       open /Applications/spacemap.app
 
