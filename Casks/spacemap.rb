@@ -1,6 +1,6 @@
 cask "spacemap" do
-  version "0.1.0"
-  sha256 "71e7ca7f35b7b286aba86f358c49d7036af2b814559b0b512e8f2a87d0eedcf8"
+  version "0.2.0"
+  sha256 "312f3edfebb179f101edb1d40fe5d67cb2b4cbcdeab7974851e3308d0a9a3ebf"
 
   url "https://github.com/jsheffie/spacemap/releases/download/v#{version}/spacemap-#{version}.zip"
   name "spacemap"
